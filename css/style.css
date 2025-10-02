@@ -62,9 +62,14 @@ body{
 }
 
 .button a{
-    text-decoration: glow;
     font-size: 1rem;
-    color: #111;
+    display: inline-block;
+  background-color: hsl(0deg 0% 0% / 56%);
+  color: #111;
+  padding: 0.75rem 2.5rem;
+  font-weight: var(--font-semi);
+  border-radius: 0.5rem;
+  transition: 0.3s;
 }
 
 @media screen and (max-width:574px){
